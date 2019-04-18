@@ -11,6 +11,7 @@ def second_challenge
   groceries.collect do |type , food|
     #puts type
     #puts food
+    keyset = type
     holder = []
     holder = food.slice!("")
     values = []
