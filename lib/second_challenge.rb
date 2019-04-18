@@ -7,7 +7,7 @@ def second_challenge
   }
   #code your solution here!
   value = []
-  groceries.each do |type , food|
+  groceries.collect do |type , food|
     puts type
       type.each do |name|
       value.push(name)
