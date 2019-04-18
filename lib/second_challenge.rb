@@ -10,7 +10,8 @@ def second_challenge
   groceries.each do |type , food|
       type.each do |name|
       value.push(name)
+    end
     return value
-end
+  end
 
 end
