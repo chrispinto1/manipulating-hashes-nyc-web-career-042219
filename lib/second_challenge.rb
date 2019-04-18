@@ -9,7 +9,8 @@ def second_challenge
   #code your solution here!
   value = []
   groceries.each do |type , food|
-    value.push(food[1])
+    value.push(food)
+    return value[1]
 end
 
 end
