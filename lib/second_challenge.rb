@@ -11,11 +11,7 @@ def second_challenge
     #puts type
     #puts food
     values = food
-    values.join('')
-      #type.each do |name|
-      #value.push(name)
-    #end
-    #return value
+    values
   end
 
 end
