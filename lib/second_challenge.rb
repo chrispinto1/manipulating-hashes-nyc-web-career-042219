@@ -1,3 +1,4 @@
+require 'active_support/core_ext'
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -11,7 +12,7 @@ def second_challenge
     #puts type
     #puts food
     holder = []
-    holder = food.split("")
+    holder = food.slice!("")
     values = []
     values.push(holder)
     #values.flatten!
