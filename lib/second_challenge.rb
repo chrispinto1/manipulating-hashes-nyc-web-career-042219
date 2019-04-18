@@ -10,8 +10,8 @@ def second_challenge
   groceries.collect do |type , food|
     #puts type
     #puts food
-    values = food
-    values.flatten!
+    values.push(food)
+    #values.flatten!
   end
 
 end
