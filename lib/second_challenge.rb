@@ -11,7 +11,7 @@ def second_challenge
     #puts type
     #puts food
     values = food
-    puts values
+    values.to_a
       #type.each do |name|
       #value.push(name)
     #end
