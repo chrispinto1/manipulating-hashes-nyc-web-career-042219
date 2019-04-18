@@ -10,6 +10,8 @@ def second_challenge
   groceries.collect do |type , food|
     puts type
     puts food
+    values = food
+    puts values
       #type.each do |name|
       #value.push(name)
     #end
