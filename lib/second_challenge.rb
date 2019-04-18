@@ -8,8 +8,8 @@ def second_challenge
   #code your solution here!
   value = []
   groceries.collect do |type , food|
-    puts type
-    puts food
+    #puts type
+    #puts food
     values = food
     puts values
       #type.each do |name|
