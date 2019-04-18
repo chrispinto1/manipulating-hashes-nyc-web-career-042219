@@ -11,7 +11,7 @@ def second_challenge
     #puts type
     #puts food
     values = food
-    values
+    values.flatten!
   end
 
 end
