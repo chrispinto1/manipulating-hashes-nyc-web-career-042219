@@ -11,7 +11,7 @@ def second_challenge
     #puts type
     #puts food
     holder = []
-    holder = food.split('')
+    holder = food.split("")
     values = []
     values.push(holder)
     #values.flatten!
