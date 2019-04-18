@@ -9,6 +9,7 @@ def second_challenge
   value = []
   groceries.collect do |type , food|
     puts type
+    puts food
       #type.each do |name|
       #value.push(name)
     #end
